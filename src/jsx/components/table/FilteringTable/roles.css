@@ -1,0 +1,110 @@
+.cards-list12 {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card12 {
+    margin: 12px auto;
+    position: relative;
+    width: 230px;
+    height: 230px; /* Adjusted height for better visibility of content */
+    border-radius: 40px; /* Reduced border-radius for a sleeker look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Lighter box shadow */
+    cursor: pointer;
+    transition: 0.4s;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .card_image12 {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+  .card_image12 iframe {
+    width: inherit;
+    height: inherit;
+    /* border-radius: 40px; */
+    object-fit: cover;
+    overflow: hidden; 
+  }
+  
+  .card12 .card_title12 {
+    text-align: center;
+    border-radius: 0 0 20px 20px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+    font-size: 18px; 
+    margin-top: -60px;
+    height: 60px; 
+    background-color: #f8f8f8; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card12:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title-white12 {
+    color: white;
+  }
+  
+  .title-black12 {
+    color: black;
+    background-color: #f8f8f8;
+  }
+  .title-black12 p{
+    font-size: 14px;
+    font-size: 14px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  @media all and (max-width: 500px) {
+    .cards-list12 {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 768px) and (min-width:320px){
+    .card12 {
+        width: 100%;
+      }
+    .card12 {
+        padding: 10px;
+        border-radius: 40px;
+      }
+  }
+  
+
+  
+.center-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Initially hide the button */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card12:hover .center-button {
+  opacity: 1; /* Show the button on hover */
+}
+
+.hover-button {
+  /* Style your button here */
+  padding: 10px;
+  background-color: #252627;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

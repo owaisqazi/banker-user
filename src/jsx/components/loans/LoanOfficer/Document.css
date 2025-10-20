@@ -1,0 +1,266 @@
+
+#sigContainer {
+  width: 100%;
+    height: 200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.sigPad {
+  width: 100%;
+  height: 100%;
+ cursor: pointer;
+}
+.buttons {
+  width: 100%;
+  height: 30px;
+}
+
+.sigImage {
+  background-size: 200px 50px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  object-fit: contain;
+}
+.sigImagess {
+  background-size: 200px 50px;
+  background-color: white;
+  object-fit: contain;
+}
+.sigCanvas{
+  height: 100% !important;
+  width: 100% !important;
+}
+/* Btn 10  */
+.btn10{
+    top: 40px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase!important;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #1362fc !important;
+    cursor: hand;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    border-radius:50px;
+    position: relative;
+    overflow: hidden!important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index:10;
+    
+}
+
+
+.btn10:hover{
+    border: 1px solid #ffffff;
+	  color:#ffffff !important;
+}
+.btn10::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #000000;
+    position: absolute;
+	  -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-20deg);   
+    left: -10%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -moz-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+	   box-shadow:2px 0px 14px rgba(0,0,0,.6);
+  } 
+
+.btn10::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background:#1362fc ;
+    position: absolute;
+	-ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-20deg);   
+    left: -10%;
+    opacity: 0;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .94s cubic-bezier(.2,.95,.57,.99);
+    -moz-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    box-shadow: 2px 0px 14px rgba(0,0,0,.6);
+}
+.btn10:hover::before, .btn1O:hover::before{
+	opacity:1;
+	width: 116%;
+}
+.btn10:hover::after, .btn1O:hover::after{
+	opacity:1;
+	width: 120%;
+}
+.checkbox-custom, .radio-custom {
+  opacity: 0;
+  position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+  position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+  content: '';
+  background: #fff;
+  border: 2px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+  background: rebeccapurple;
+  box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.radio-custom + .radio-custom-label:before {
+  border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+  background: #ccc;
+  box-shadow: inset 0px 0px 0px 4px #fff;
+}
+.basicStyleDm{
+  font-size: 14px;
+  font-weight:500;
+  font-family: Arial;
+  margin-top: 2px;
+}
+.respnsecss{
+  color: #969ba0;
+  font-style:italic;
+  font-size: 15px;
+  font-family:Arial;
+  border-bottom: 1px solid;
+  height: fit-content;
+}
+#Otherb4{
+  margin-top: 50px;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  #mac-size1{
+    margin-bottom: 30px !important;
+  }
+  #Otherb4{
+    margin-top: 50px;
+  }
+  #macsize2{
+    margin-top: 50px !important;
+  }
+  #mac-size3{
+    margin-top: 30px !important;
+  }
+  #mac-size4{
+    margin-top: 0px !important;
+  }
+  #mac-size5{
+    padding-top: 0px !important;
+  }
+  #mac-size6{
+    padding-top: 0px !important;
+  }
+  #mac-size7{
+    margin-bottom: 10px !important;
+  }
+  #mac-size8{
+    margin-top: 65px !important;
+  }
+}
+@media (min-width: 1640px) and (max-width: 1920px) {
+  #mac-size1{
+    margin-top: 52px !important;
+  }
+  #mac-size3{
+    margin-top: 70px !important;
+  }
+  #mac-size10{
+    margin-top: 55px !important;
+  }
+  #mac-size15{
+    margin-top: 1.5rem !important;
+  }
+  #mac-size16{
+    margin-top:75px !important;
+  }
+  #mac-size16{
+    margin-top:10px !important;
+  }
+  #mac-size12{
+    margin-top: 0px !important;
+  }
+  #mac-size13{
+    margin-top: 25px !important;
+  }
+  #mac-size14{
+    margin-top: 0px !important;
+  }
+  #mac-size4{
+    margin-top: 0px !important;
+  }
+  #mac-size5{
+    padding-top: 0px !important;
+  }
+  #mac-size6{
+    padding-top: 0px !important;
+  }
+  #mac-size6 .basicStyleDm{
+    padding-top: 0px !important;
+  }
+  #mac-size7{
+    margin-bottom: 30px !important;
+  }
+  #mac-size8{
+    margin-top: 70px !important;
+  }
+  #mac-size11{
+    margin-top: 30px !important;
+  }
+  #Otherb4{
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1396px) and (max-width: 1640px) {
+  #mac-size1{
+    margin-top: 62px !important;
+  }
+  #mac-size7{
+    margin-bottom: 2px !important;
+  }
+}
+@media all and (min-device-width:1280px) and (min-device-height:720px) {
+  #Otherb4{
+    margin-top: 43px;
+  }
+}

@@ -1,0 +1,125 @@
+/* *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+} */
+/* .fade{
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bolder;
+    text-transform:uppercase;
+} */
+.konvajs-content{
+    width: 445px !important;
+}
+.konvajs-content>canvas{
+    padding: 0px ;
+    margin: 0px;
+    border: 0px;
+    background: transparent !important;
+    position: relative !important;
+    top: 0px;
+    left: 0px;
+    width: 445px !important;
+    height: 400px;
+    object-fit: cover !important;
+    display: block;
+}
+.profileInfoImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+
+.input-group>.form-control-plaintext,
+.input-group>.form-select,
+.input-group>.form-file {
+    height: 2.8rem;
+    border-radius: 0%;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow{
+    min-height: 20vw;
+}
+.ql-toolbar {
+    width: inherit !important;
+}
+
+.text20 {
+    width: 100% !important;
+}
+
+.img-fluid {
+    background-size: 100% 100% !important;
+    height: 150px !important;
+    width: 100%;
+}
+
+.react-tagsinput-tag {
+    background-color: #1362fc !important;
+    color: aliceblue !important;
+}
+
+.tagsInput2 {
+    height: 80px !important;
+}
+
+.col-form-label {
+    letter-spacing: 0px !important;
+}
+
+.ProSidebar {
+    display: none;
+}
+
+.ShowSide {
+    display: block;
+}
+
+.bac_bg {
+    background-color: #053fb3 !important;
+}
+
+.BTNset {
+    font-size: 30px;
+    display: none;
+}
+
+.MuiFormControl-root {
+    width: 100% !important;
+}
+
+@media (max-width:1840px) {
+    .ProSidebar {
+        display: block;
+    }
+}
+
+@media (max-width:1440px) {
+    .ProSidebar {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .BTNset {
+        display: block;
+    }
+
+    .ProSidebar {
+        display: none;
+    }
+}
+
+
+
+.dzu-dropzone {
+    overflow: auto !important;
+}
+
+.show_Images {
+    background-size: 100% 100%;
+}
+
+.icons-del {
+    left: 25px;
+    margin-top: 15px;
+}
